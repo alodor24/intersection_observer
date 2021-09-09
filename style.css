@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --cyan: #006064;
+    --white: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--cyan);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 30%);
+}
+
+.navbar p {
+    color: var(--white);
+    font-size: 1.8em;
+    letter-spacing: 2px;
+}
+
+#object_to_observe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1000px 0;
+}
+
+#object_to_observe img {
+    max-width: 100%;
+}
